@@ -15,11 +15,13 @@
             
             tarefas.push(inputnomeDaTarefa.val());
 
-            let linha = `
-    ${inputnomeDaTarefa.val()} 
-    `;
+            let linha = `<li>${inputnomeDaTarefa.val()}</li>`;
+            
             $('#lista-tarefas').append(linha);
         }
 
         inputnomeDaTarefa.val('');
     }
+
+    $('#lista-tarefas').click(
+    );
