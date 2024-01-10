@@ -23,5 +23,8 @@
         inputnomeDaTarefa.val('');
     }
 
-    $('#lista-tarefas').click(
-    );
+    $(document).ready(function(){
+        $('.ul').click(function(){
+        $(this).toggleClass('finalizado');
+        });
+    })

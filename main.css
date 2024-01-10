@@ -45,5 +45,8 @@ form button {
     justify-content: center;
     margin-top: 36px;
     font-size: 16px;
+}
+
+.finalizado{
     text-decoration: line-through;
 }
