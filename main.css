@@ -6,12 +6,12 @@
 }
 
 body {
-    background-color: rgb(240, 197, 240);
+    background-color: rgb(226, 224, 224);
 }
 
 header h1 {
     padding: 8px;
-    color: rgb(157, 22, 157);
+    color: dimgray;
     margin-bottom: 10px;
     display: flex;
     justify-content: center;
@@ -37,7 +37,7 @@ form button {
     border: none;
     font-size: 18px;
     color: #fff;
-    background-color: rgb(136, 82, 136) ;
+    background-color: dimgray;
 }
 
 .content {
@@ -49,4 +49,5 @@ form button {
 
 .finalizado{
     text-decoration: line-through;
+    cursor: pointer;
 }

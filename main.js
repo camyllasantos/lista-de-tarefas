@@ -24,7 +24,7 @@
     }
 
     $(document).ready(function(){
-        $('.ul').click(function(){
-        $(this).toggleClass('finalizado');
-        });
+        $('ul').on('click', 'li', function() { 
+            $(this).toggleClass('finalizado'); 
+          });
     })
